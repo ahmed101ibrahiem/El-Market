@@ -1,5 +1,7 @@
 
 
+import 'package:e_commerce/view/onboarding/onboarding_screen.dart';
+import 'package:e_commerce/view/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 class EcommerceApp extends StatelessWidget {
@@ -9,7 +11,7 @@ class EcommerceApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: OnboardingScreen(),
     );
   }
 }
